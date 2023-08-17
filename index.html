@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">Let's Play Dice</div>
+        <div class="winner" id="winner"></div>
+        <div style="display: flex; justify-content: center; align-items: center;" >
+            <div class="player1" >
+                <div class="player-1" id="resetall">
+                    <span style="width: 157px;text-align: center;">Player-1</span>
+                    <span class="number" id="score1">0</span>
+                    <span><button onclick="rollnow1()" type="button" class="rollnow" style="width: 157px;" id="rollbtn1">Roll now</button></span>
+                </div>
+            </div>
+            <div>
+                <img src="1.png" id="img">
+            </div>
+            <div class="player2">
+                <div class="player-1">
+                    <span style="width: 157px;text-align: center;">Player-2</span>
+                    <span class="number" id="score2">0</span>
+                    <span><button onclick="rollnow2()" type="button" class="rollnow" style="width: 157px;" id="rollbtn2">Roll now</button></span>
+                </div>
+            </div>
+        </div>
+        <div class="resetdiv">
+            <button  type="button" style="width: 157px;" class="reset" id="reset" value="Reset">Reset</button>
+        </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

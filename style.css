@@ -1,0 +1,51 @@
+.heading{
+    color: green;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+.player-1{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+.number{
+    height: 125px;
+    font-size: 100px;
+    width: 150px;
+    text-align: center;
+    border: none;
+}
+.rollnow{
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+}
+.player1{
+    padding: 20px;  
+}
+.player2{
+    padding: 20px;
+}
+.resetdiv{
+    text-align: center;
+}
+.reset{
+    height: 50px;
+    font-size: 20px;
+    background-color: pink;
+    border: none;
+}
+#img{
+    width: 300px;
+    height: 300px;
+}
+.hidden{
+    display: none;
+}
+.winner{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
